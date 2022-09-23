@@ -1,0 +1,30 @@
+body{
+    color: #fff;
+    background-color: #000;
+    min-height: 100vh;
+    font-family: monospace;
+    font-size: 2em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+p{
+    width: 255px;
+}
+a{
+    color: #ffffff;
+    width: 255px;
+}
+div{
+    width: 260px;
+    padding: 1em 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 50px;
+}
