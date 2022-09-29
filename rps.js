@@ -11,7 +11,7 @@ function election(play){
     } else if(play == 3){
         result = "SCISSORS ✂️"
     } else{
-        result = "BAD"
+        result = "BAD 😵"
     }
     return result
 }
@@ -25,18 +25,18 @@ while(wins < 3 && loss < 3){
     pc = random(1,3)
     player = prompt("SELECT 1️⃣ FOR ROCK 🪨, 2️⃣ FOR PAPER 📄 OR 3️⃣ FOR SCISSORS ✂️")
 
-    alert("PC SELECT " + election(pc) + " AND YOU SELECT " + election(player))
+    alert("💻 PC SELECT " + election(pc) + " AND  🥷🏻 YOU SELECT " + election(player))
 
     // combat
     if (pc == player) {
-    alert("TIE.")
+    alert("TIE! 🙃")
     } else if ((player == 1 && pc == 3) || (player == 2 && pc == 1) || (player == 3 && pc == 2)) {
-    alert("WON!")
+    alert("WON! 😆")
     wins = wins + 1
     } else {
-    alert("LOSER!")
+    alert("LOSER! 🥲")
     loss = loss + 1
     }
 }
 
-alert("YOU WIN " + wins + " TIMES AND LOST " + loss + " TIMES")
+alert("😱 YOU WIN 😆 " + wins + " TIMES AND 🥲 LOST " + loss + " TIMES 👀")
